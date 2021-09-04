@@ -3,11 +3,12 @@ body {
   width: 100%;
 }
 
-svg {
+.map svg {
   max-width: 100% !important;
   height: auto;
   display: block;
   height: 100vh;
+  float: left;
 }
 
 .land:hover {
@@ -59,4 +60,12 @@ svg {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid white;
+}
+
+.map__description {
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 30%;
 }
