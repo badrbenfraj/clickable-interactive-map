@@ -7,10 +7,11 @@ svg {
   max-width: 100% !important;
   height: auto;
   display: block;
+  height: 100vh;
 }
 
 .land:hover {
-  fill: #cc2929;
+  fill: #21669e;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -18,7 +19,7 @@ svg {
 }
 
 .land {
-  fill: #21669e;
+  fill: #ccc;
   cursor: pointer;
   stroke-width: 0.25px;
   stroke: #fff;
@@ -27,10 +28,10 @@ svg {
 .description {
   pointer-events: none;
   position: absolute;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
   background: white;
-  padding: 10px 15px;
+  padding: 5px 10px;
   z-index: 5;
   height: 30px;
   line-height: 30px;
